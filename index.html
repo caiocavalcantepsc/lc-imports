@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LC imports - Loja de Importados</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="media/favcom.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- Header e Navegação -->
+    <header>
+        <div class="container header-container hidden-blurless
+        ">
+            <a href="#" class="logo">
+                <img src="media/Logo lc.png" alt="LC imports">
+                LC imports
+            </a>
+
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#contato-rapido">Contato</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
+                    <li><a href="#vip">Grupo VIP</a></li>
+                </ul>
+            </nav>
+
+            <div class="cart-icon" id="cartIcon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count" id="cartCount">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner Principal -->
+    <section class="banner-principal" id="inicio">
+        <div class="container">
+
+            <div class="banner-conteudo-hero hidden-blurless">
+                <img src="media/sem_bg_logo_e_nome.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Rápido -->
+    <section class="contato-rapido" id="contato-rapido">
+        <div class="container">
+            <div class="titulo-secao hidden">
+                <h2>Fale Conosco de Acordo com sua Necessidade</h2>
+            </div>
+
+            <div class="contato-grid hidden">
+                <div class="contato-card">
+                    <div class="contato-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Atendimento</h3>
+                    <p>Leticia Santana</p>
+
+
+
+                    <a href="https://api.whatsapp.com/send/?phone=5575998311915&text&type=phone_number&app_absent=0"
+                        class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Falar Agora
+                    </a>
+                </div>
+
+                <div class="contato-card">
+                    <div class="contato-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Atendimento</h3>
+                    <p>Vitor Brito</p>
+                    <a href="https://api.whatsapp.com/send?phone=5575998565653" class="btn btn-whatsapp"
+                        target="_blank">
+                        <i class="fab fa-whatsapp"></i> Falar Agora
+                    </a>
+                </div>
+
+                <div class="contato-card">
+                    <div class="contato-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Atendimento</h3>
+                    <p>Pedro Lelis</p>
+                    <a href="https://api.whatsapp.com/send/?phone=5575998119374&text&type=phone_number&app_absent=0"
+                        class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Falar Agora
+                    </a>
+                </div>
+
+                <div class="contato-card">
+                    <div class="contato-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Assistência</h3>
+                    <p>Jéferson</p>
+                    <a href="https://api.whatsapp.com/send/?phone=5575997101281&text&type=phone_number&app_absent=0"
+                        class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Falar Agora
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Vitrine de Produtos -->
+    <section class="vitrine-produtos" id="produtos">
+        <div class="container">
+            <div class="titulo-secao hidden-blurless">
+                <h2>Mais Vendidos</h2>
+            </div>
+
+            <div class="produtos-grid">
+                <!-- iPhone 15 Pro Max -->
+                <div class="produto-card">
+                    <div class="produto-imagem">
+                        <div class="produto-imagem-placeholder">
+                            <img src="https://imgs.search.brave.com/8NiRVW-BdEiVVzr_kUdqpd9ZFGMhbvz736TxkHNc8Zg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/YXdzbGkuY29tLmJy/LzMwMHgzMDAvMTkx/OS8xOTE5MjU3L3By/b2R1dG8vMjM2OTMx/MjgzLzIwMDItcWhw/dWdvODFzbi5qcGc"
+                                class="produto-foto" alt="">
+                            <span>Apple</span>
+                        </div>
+                    </div>
+                    <div class="produto-info">
+                        <h3 class="produto-nome">iPhone 15 Pro Max</h3>
+                        <p class="produto-descricao">256GB, Titanium, 48MP câmera principal</p>
+                        <div class="produto-categoria">iPhone</div>
+
+                        <div class="produto-precos">
+                            <span class="produto-preco-atual">R$ 7.899,90</span>
+                            <span class="produto-preco-original">R$ 8.999,90</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Xiaomi 14 Ultra -->
+                <div class="produto-card">
+                    <div class="produto-imagem">
+                        <div class="produto-imagem-placeholder">
+                            <img src="https://imgs.search.brave.com/QVaEwd_YN7ZULp8tp9o341qjcuNOTX2_NsAr7FD1vAI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NDEyUnVvOFVGZ0wu/anBn" class="produto-foto">
+                            <span>Xiaomi</span>
+                        </div>
+                    </div>
+                    <div class="produto-info">
+                        <h3 class="produto-nome">Xiaomi 14 Ultra</h3>
+                        <p class="produto-descricao">512GB, 16GB RAM, Leica câmera quad</p>
+                        <div class="produto-categoria">Xiaomi</div>
+
+                        <div class="produto-precos">
+                            <span class="produto-preco-atual">R$ 6.299,90</span>
+                            <span class="produto-preco-original">R$ 6.999,90</span>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <!-- Xiaomi Redmi Note 13 Pro -->
+                <div class="produto-card">
+                    <div class="produto-imagem">
+                        <div class="produto-imagem-placeholder">
+                            <img src="https://imgs.search.brave.com/mQmm_VHjJzCqaK99xusrPqkwQEs8EHMXzG92SJ6o1Qk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/YXdzbGkuY29tLmJy/LzMwMHgzMDAvMTkx/OS8xOTE5MjU3L3By/b2R1dG8vMjUzNDM4/MDU1L2F6dWwtLTIt/LXZyaG1xd2NoZGcu/anBn" class="produto-foto">
+                            <span>Xiaomi</span>
+                        </div>
+                    </div>
+                    <div class="produto-info">
+                        <h3 class="produto-nome">Xiaomi Redmi Note 13 Pro</h3>
+                        <p class="produto-descricao">256GB, 200MP câmera, Snapdragon</p>
+                        <div class="produto-categoria">Xiaomi</div>
+
+                        <div class="produto-precos">
+                            <span class="produto-preco-atual">R$ 2.499,90</span>
+                            <span class="produto-preco-original">R$ 2.899,90</span>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <!-- Xiaomi Poco X6 Pro -->
+                <div class="produto-card">
+                    <div class="produto-imagem">
+                        <div class="produto-imagem-placeholder">
+                            <img src="https://imgs.search.brave.com/SGM5gyULZhc8ZLGHFDEqTQS5HYO9RNLcqI1n9Zxt66k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTE1WFZtNGFVUUwu/anBn" class="produto-foto">
+                            <span>Xiaomi</span>
+                        </div>
+                    </div>
+                    <div class="produto-info">
+                        <h3 class="produto-nome">Xiaomi Poco X6 Pro</h3>
+                        <p class="produto-descricao">256GB, Dimensity 8300-Ultra</p>
+                        <div class="produto-categoria">Xiaomi</div>
+
+                        <div class="produto-precos">
+                            <span class="produto-preco-atual">R$ 2.199,90</span>
+                            <span class="produto-preco-original">R$ 2.599,90</span>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <!-- AirPods Pro 2 -->
+                <div class="produto-card">
+                    <div class="produto-imagem">
+
+                        <div class="produto-imagem-placeholder">
+                            <img src="https://imgs.search.brave.com/MRdRNSLgG24U69E0tirjzk98Y-QSQfE6wICpO9S3Obg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGNkbi5jb20u/YnIvaW1nL2ltZ19w/cm9kLzEwMjExNDIv/YXBwbGVfYWlycG9k/c19wcm9fMmFfZ2Vy/YWNhb19mb25lX2Rl/X291dmlkb19ibHVl/dG9vdGhfbWFnc2Fm/ZV9hbmNfY2FuY2Vs/YW1lbnRvX2RlX3J1/aWRvX2NhcnJlZ2Ft/ZW50b18xNDczXzJf/NzE0NzBiODhjODI3/NjU5MGRkZjA4NmE5/ZDdlN2I1MTQuanBn" class="produto-foto">
+                            <span>Apple</span>
+                        </div>
+                    </div>
+                    <div class="produto-info">
+                        <h3 class="produto-nome">AirPods Pro 2</h3>
+                        <p class="produto-descricao">Cancelamento ativo de ruído</p>
+                        <div class="produto-categoria">Acessórios</div>
+
+                        <div class="produto-precos">
+                            <span class="produto-preco-atual">R$ 1.299,90</span>
+                            <span class="produto-preco-original">R$ 1.499,90</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Carregador MagSafe -->
+                <div class="produto-card">
+                    <div class="produto-imagem">
+                        <div class="produto-imagem-placeholder">
+                            <img src="https://imgs.search.brave.com/cCIGI4D4IN2rALozUn2eknew80RNb4rc4LSAIFe635Y/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/YXdzbGkuY29tLmJy/LzMwMHgzMDAvMjYy/OC8yNjI4MDczL3By/b2R1dG8vMjQ3NjMw/NjQ4NTQwMjA3ZDY4/OS5qcGc" class="produto-foto">
+                            <span>Apple</span>
+                        </div>
+                    </div>
+                    <div class="produto-info">
+                        <h3 class="produto-nome">Carregador MagSafe</h3>
+                        <p class="produto-descricao">Carregamento rápido 15W</p>
+                        <div class="produto-categoria">Acessórios</div>
+
+                        <div class="produto-precos">
+                            <span class="produto-preco-atual">R$ 299,90</span>
+                            <span class="produto-preco-original">R$ 399,90</span>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="#vip" class="btn btn-outline hidden-blurless">Ver Mais Ofertas no Grupo VIP</a>
+            </div>
+    </section>
+
+    <!-- Grupo VIP -->
+    <section class="grupo-vip" id="vip">
+        <div class="container">
+            <div class="vip-conteudo hidden-blurless">
+                <h2>Grupo VIP de Ofertas</h2>
+                <p>Entre para nosso grupo exclusivo e receba ofertas especiais antes de todo mundo!</p>
+
+                <div class="beneficios-vip">
+                    <div class="beneficio">
+                        <i class="fas fa-percentage"></i>
+                        <p>Descontos Exclusivos</p>
+                    </div>
+                    <div class="beneficio">
+                        <i class="fas fa-bolt"></i>
+                        <p>Promoções Relâmpago</p>
+                    </div>
+                    <div class="beneficio">
+                        <i class="fas fa-gift"></i>
+                        <p>Sorteios Semanais</p>
+                    </div>
+                </div>
+
+                <a href="https://www.instagram.com/linkshim/?u=https%3A%2F%2Fchat.whatsapp.com%2FIWLF1IzJwCZ8ueqG90ih8h%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAac81Ysofq5DZmTF3PDbytJ003w_05aHAP_yrSfufpOEjZr2T9B3uBGVvUVOKA_aem_cVNly_qkhde5PPQkVniMIg&e=AT2aoPXmFvj714qQF7XbUPeMK5Hvh9fE7GqhA-6W0uZlzedipeOuJ3MxoyTx3ewdwZVuQiF_Jn4d_LcMWzuRDjlAJdDbhR4ChH8w5aItbUo4l4gnLBLyakoJlcTo"
+                    class="btn btn-whatsapp" target="_blank" style="font-size: 1.1rem; padding: 15px 40px;">
+                    <i class="fab fa-whatsapp"></i> Entrar no Grupo VIP
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Localização -->
+    <section class="localizacao" id="localizacao">
+        <div class="container hidden">
+            <div class="titulo-secao">
+                <h2>Nossa Localização</h2>
+            </div>
+
+            <div class="mapa-container">
+                <div class="mapa-info">
+                    <h3>Venha nos visitar</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Av. Almerindo Rehem, 1180 - nova america, Euclides da Cunha
+                        - BA</p>
+                    <p><i class="fas fa-clock"></i> Segunda a Sexta: 9h às 18h</p>
+                    <p><i class="fas fa-phone"></i> (75) 99811-9374</p>
+                </div>
+
+                <div class="mapa-frame">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4111.836079803886!2d-39.014094524709506!3d-10.512874115241463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x70d8d6ffb71af7b%3A0xe3dd901d44838420!2sLC%20IMPORTS%20-%20Loja%20de%20celulares%2C%20iPhone%2C%20iPad%2C%20Xiaomi%2C%20Realme!5e1!3m2!1sen!2sbr!4v1767379703404!5m2!1sen!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Redes Sociais -->
+    <section class="redes-sociais">
+        <div class="container hidden-blurless">
+            <h3>Siga-nos nas Redes Sociais</h3>
+            <div class="redes-links">
+                <a href="https://www.instagram.com/lcimports_s?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    class="rede-social instagram" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://tiktok.com/@lcimports" class="rede-social tiktok" target="_blank" aria-label="TikTok">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+            <p>Fique por dentro das novidades e promoções</p>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container hidden">
+            <h3>Receba Nossas Ofertas</h3>
+            <p>Cadastre-se e receba as melhores promoções diretamente no seu e-mail</p>
+
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" placeholder="Seu melhor e-mail" required aria-label="Email para newsletter">
+                <button type="submit" class="btn">Inscrever-se</button>
+            </form>
+            <p style="font-size: 0.8rem; margin-top: 15px;">Prometemos não enviar spam. Você pode cancelar a qualquer
+                momento.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contato">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col hidden">
+                    <h3>LC imports</h3>
+                    <p>Especializada em iPhones e Xiaomi importados com qualidade e garantia.</p>
+                </div>
+
+                <div class="footer-col hidden">
+                    <h3>Categorias</h3>
+                    <a href="#produtos">iPhone</a>
+                    <a href="#produtos">Xiaomi</a>
+                    <a href="#produtos">Acessórios</a>
+                    <a href="#produtos">Fones</a>
+                    <a href="#produtos">Carregadores</a>
+                </div>
+
+                <div class="footer-col hidden">
+                    <h3>Links Rápidos</h3>
+                    <a href="#inicio">Início</a>
+                    <a href="#produtos">Produtos</a>
+                    <a href="#contato-rapido">Contato</a>
+                    <a href="#localizacao">Localização</a>
+                    <a href="#vip">Grupo VIP</a>
+                </div>
+
+                <div class="footer-col hidden">
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-phone"></i> (75) 99811-9374</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Av. Almerindo Rehem, 1180 - nova america, Euclides da Cunha
+                        - BA</p>
+                </div>
+            </div>
+
+            <div class="copyright hidden-blurless">
+                <p>&copy; 2023 LC imports. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Carrinho de Compras -->
+    <div class="carrinho-overlay" id="carrinhoOverlay">
+        <div class="carrinho-sidebar">
+            <div class="carrinho-header">
+                <h3>Seu Carrinho</h3>
+                <div class="close-carrinho" id="closeCarrinho">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+
+            <div class="carrinho-items" id="carrinhoItems">
+                <!-- Itens do carrinho serão inseridos via JavaScript -->
+            </div>
+
+            <div class="carrinho-total">
+                <span>Total:</span>
+                <span id="carrinhoTotal">R$ 0,00</span>
+            </div>
+
+            <button class="btn btn-outline" style="width: 100%;">Finalizar Compra</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -423,6 +423,8 @@ nav ul li a:hover::after {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
     height: 650px;
+    box-shadow: 0 0 30px white;
+    border-top: solid 2px --cor-bg-secundario;
 }
 
 .produto-card:hover {
@@ -1342,12 +1344,17 @@ footer {
     }
     
     .produto-card {
-        max-width: 100%;
-        min-height: 450px;
+        min-height: 300px;
+    }
+
+    .produto-card hr {
+        background: radial(black, rgba(0, 0, 0, 0), black)
     }
     
     .produto-imagem {
-        height: 180px;
+        height: 150px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     
     .produto-foto {
@@ -1450,11 +1457,17 @@ footer {
     }
     
     .produto-card {
-        min-height: 420px;
+        min-height: 300px;
+    }
+
+    .produto-card hr {
+        background: radial(black, rgba(0, 0, 0, 0), black)
     }
     
     .produto-imagem {
         height: 150px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     
     .produto-foto {
